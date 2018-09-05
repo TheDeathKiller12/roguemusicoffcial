@@ -1,0 +1,64 @@
+[57.000637054] 2018-09-05 05:48:37,404 - INFO - launcher: Starting sanity checks
+[57.000637054] 2018-09-05 05:48:37,404 - INFO - launcher: Checking for Python 3.5+
+[57.000637054] 2018-09-05 05:48:37,404 - INFO - launcher: Checking console encoding
+[58.000326157] 2018-09-05 05:48:37,405 - INFO - launcher: Setting console encoding to UTF-8
+[58.000326157] 2018-09-05 05:48:37,405 - INFO - launcher: Ensuring we're in the right environment
+[61.000347137] 2018-09-05 05:48:37,408 - INFO - launcher: Adding local bins/ folder to path
+[1045.985698700] 2018-09-05 05:48:38,393 - INFO - launcher: Required checks passed.
+[1046.986103058] 2018-09-05 05:48:38,394 - INFO - launcher: Optional checks passed.
+[1046.986103058] 2018-09-05 05:48:38,394 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.1648974418640137] 2018-09-05 05:48:39,512 - WARNING - musicbot.config | In config.py::MainThread(17808), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.1658282279968262] 2018-09-05 05:48:39,513 - INFO - musicbot.config | In config.py::MainThread(17808), line 124 in run_checks: Using i18n: config/i18n/en.json
+[2.1708974838256836] 2018-09-05 05:48:39,518 - DEBUG - musicbot.json | In json.py::MainThread(17808), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.2098274230957031] 2018-09-05 05:48:39,557 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 223 in _setup_logging: Set logging level to INFO
+[2.2098274230957031] 2018-09-05 05:48:39,557 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 83 in __init__: Starting MusicBot 1.9.8_1
+[2.2108685970306396] 2018-09-05 05:48:39,558 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[5.3678796291351318] 2018-09-05 05:48:42,715 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 913 in on_ready: Connection established, ready to go.
+[5.3678796291351318] 2018-09-05 05:48:42,715 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 334 in _cache_app_info: Caching app info
+[5.5357840061187744] 2018-09-05 05:48:42,883 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[5.5387852191925049] 2018-09-05 05:48:42,886 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 751 in _scheck_server_permissions: Checking server permissions
+[5.5387852191925049] 2018-09-05 05:48:42,886 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[5.5387852191925049] 2018-09-05 05:48:42,886 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 759 in _scheck_configs: Validating config
+[5.5387852191925049] 2018-09-05 05:48:42,886 - DEBUG - musicbot.config | In config.py::MainThread(17808), line 213 in async_validate: Validating options...
+[5.5387852191925049] 2018-09-05 05:48:42,886 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 762 in _scheck_configs: Validating permissions config
+[5.5397830009460449] 2018-09-05 05:48:42,887 - DEBUG - musicbot.permissions | In permissions.py::MainThread(17808), line 65 in async_validate: Validating permissions...
+[5.5397830009460449] 2018-09-05 05:48:42,887 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 930 in on_ready: Connected: 486744141598818304/RogueMusicOfficial#4116
+[5.5397830009460449] 2018-09-05 05:48:42,887 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 938 in on_ready: Owner:     267437711932129280/RogueWolf#4307
+
+[5.5407841205596924] 2018-09-05 05:48:42,888 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 941 in on_ready: Guild List:
+[5.5407841205596924] 2018-09-05 05:48:42,888 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 944 in on_ready:  - ELITE CENTRAL
+[5.5417845249176025] 2018-09-05 05:48:42,889 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 990 in on_ready: Not bound to any text channels
+[5.5417845249176025] 2018-09-05 05:48:42,889 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 1016 in on_ready: Not autojoining any voice channels
+[40.1089460849761963] 2018-09-05 05:49:17,456 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 2598 in on_message: 267437711932129280/RogueWolf#4307: #summon
+[40.9419667720794678] 2018-09-05 05:49:18,289 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 1864 in cmd_summon: Joining ELITE CENTRAL/🎤General 3
+[40.9459671974182129] 2018-09-05 05:49:18,293 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 505 in on_player_stop: Running on_player_stop
+[71.3875594139099121] 2018-09-05 05:49:48,735 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 2598 in on_message: 267437711932129280/RogueWolf#4307: #play post malone better now
+[72.5456125736236572] 2018-09-05 05:49:49,893 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 1351 in cmd_play: {'_type': 'url', 'url': 'ytsearch:post malone better now', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'post malone better now', 'webpage_url_basename': 'post malone better now', 'extractor_key': 'Generic'}
+[79.4736738204956055] 2018-09-05 05:49:56,821 - DEBUG - musicbot.entry | In entry.py::MainThread(17808), line 56 in get_ready_future: Created future for None
+[79.4756743907928467] 2018-09-05 05:49:56,823 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 586 in on_player_entry_added: Running on_player_entry_added
+[79.4756743907928467] 2018-09-05 05:49:56,823 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 671 in serialize_queue: Serializing queue for 338785752764645376
+[79.4786748886108398] 2018-09-05 05:49:56,826 - INFO - musicbot.entry | In entry.py::MainThread(17808), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=-yHoa4MR0W4
+[81.4658863544464111] 2018-09-05 05:49:58,813 - DEBUG - musicbot.entry | In entry.py::MainThread(17808), line 56 in get_ready_future: Created future for None
+[82.4748795032501221] 2018-09-05 05:49:59,822 - INFO - musicbot.entry | In entry.py::MainThread(17808), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=-yHoa4MR0W4
+[82.4828801155090332] 2018-09-05 05:49:59,830 - FFMPEG - musicbot.player | In player.py::MainThread(17808), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube--yHoa4MR0W4-Post_Malone_-_Better_Now_Lyrics_Lyric_Video.webm
+[83.6903803348541260] 2018-09-05 05:50:01,038 - DEBUG - musicbot.player | In player.py::MainThread(17808), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x036428F0> using <discord.voice_client.VoiceClient object at 0x047258F0>
+[83.6913661956787109] 2018-09-05 05:50:01,039 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 452 in on_player_play: Running on_player_play
+[83.6923666000366211] 2018-09-05 05:50:01,040 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 671 in serialize_queue: Serializing queue for 338785752764645376
+[284.7585093975067139] 2018-09-05 05:53:22,106 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[284.7585093975067139] 2018-09-05 05:53:22,106 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 671 in serialize_queue: Serializing queue for 338785752764645376
+[284.7605090141296387] 2018-09-05 05:53:22,108 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 505 in on_player_stop: Running on_player_stop
+[388.1460092067718506] 2018-09-05 05:55:05,493 - INFO - musicbot.bot | In bot.py::MainThread(17808), line 2598 in on_message: 267437711932129280/RogueWolf#4307: #play ksi on point
+[388.5376896858215332] 2018-09-05 05:55:05,885 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 1351 in cmd_play: {'_type': 'url', 'url': 'ytsearch:ksi on point', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ksi on point', 'webpage_url_basename': 'ksi on point', 'extractor_key': 'Generic'}
+[393.2452983856201172] 2018-09-05 05:55:10,593 - DEBUG - musicbot.entry | In entry.py::MainThread(17808), line 56 in get_ready_future: Created future for None
+[393.2472980022430420] 2018-09-05 05:55:10,595 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 586 in on_player_entry_added: Running on_player_entry_added
+[393.2472980022430420] 2018-09-05 05:55:10,595 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 671 in serialize_queue: Serializing queue for 338785752764645376
+[393.2492978572845459] 2018-09-05 05:55:10,597 - INFO - musicbot.entry | In entry.py::MainThread(17808), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=TofmKTHkAGE
+[395.2473514080047607] 2018-09-05 05:55:12,595 - DEBUG - musicbot.entry | In entry.py::MainThread(17808), line 56 in get_ready_future: Created future for None
+[398.6366736888885498] 2018-09-05 05:55:15,984 - INFO - musicbot.entry | In entry.py::MainThread(17808), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=TofmKTHkAGE
+[398.6407437324523926] 2018-09-05 05:55:15,988 - FFMPEG - musicbot.player | In player.py::MainThread(17808), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-TofmKTHkAGE-KSI_-_ON_POINT_LOGAN_PAUL_DISS_TRACK.webm
+[398.8628756999969482] 2018-09-05 05:55:16,210 - DEBUG - musicbot.player | In player.py::MainThread(17808), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x049957B0> using <discord.voice_client.VoiceClient object at 0x047258F0>
+[398.8648755550384521] 2018-09-05 05:55:16,212 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 452 in on_player_play: Running on_player_play
+[398.8658757209777832] 2018-09-05 05:55:16,213 - DEBUG - musicbot.bot | In bot.py::MainThread(17808), line 671 in serialize_queue: Serializing queue for 338785752764645376

@@ -1,0 +1,28 @@
+[56.072473526] 2018-09-05 05:46:57,236 - INFO - launcher: Starting sanity checks
+[56.995630264] 2018-09-05 05:46:57,236 - INFO - launcher: Checking for Python 3.5+
+[56.995630264] 2018-09-05 05:46:57,236 - INFO - launcher: Checking console encoding
+[56.995630264] 2018-09-05 05:46:57,236 - INFO - launcher: Setting console encoding to UTF-8
+[56.995630264] 2018-09-05 05:46:57,236 - INFO - launcher: Ensuring we're in the right environment
+[60.994625092] 2018-09-05 05:46:57,240 - INFO - launcher: Adding local bins/ folder to path
+[1058.980464935] 2018-09-05 05:46:58,238 - INFO - launcher: Required checks passed.
+[1058.980464935] 2018-09-05 05:46:58,238 - INFO - launcher: Optional checks passed.
+[1059.980869293] 2018-09-05 05:46:58,239 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.1689665317535400] 2018-09-05 05:46:59,348 - WARNING - musicbot.config | In config.py::MainThread(18448), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.1689665317535400] 2018-09-05 05:46:59,348 - INFO - musicbot.config | In config.py::MainThread(18448), line 124 in run_checks: Using i18n: config/i18n/en.json
+[2.1749668121337891] 2018-09-05 05:46:59,354 - DEBUG - musicbot.json | In json.py::MainThread(18448), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.2159669399261475] 2018-09-05 05:46:59,395 - DEBUG - musicbot.bot | In bot.py::MainThread(18448), line 223 in _setup_logging: Set logging level to INFO
+[2.2169671058654785] 2018-09-05 05:46:59,396 - INFO - musicbot.bot | In bot.py::MainThread(18448), line 83 in __init__: Starting MusicBot 1.9.8_1
+[2.2169671058654785] 2018-09-05 05:46:59,396 - INFO - musicbot.bot | In bot.py::MainThread(18448), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[2.554940939] launcher-INFO: 
+An error has occured:
+  Problem:
+    Bot cannot login, bad credentials.
+
+  Solution:
+    Fix your token in the options file.  Remember that each field should be on their own line.
+
+
+[2.556943417] launcher-INFO: All done.
